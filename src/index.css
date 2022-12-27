@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: #282a37;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title h1 {
+  color: white;
+  font-weight: normal;
+  font-size: 24px;
+  font-family: avenir next,avenir,sans-serif;
+}
+
+.list-container {
+  border: 2px solid #bababa;
+  border-radius: 10px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 15px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info p {
+  margin: 0;
+}
+.info{
+  margin-left: 10px;
+}
+.list-group-item {
+  border-bottom: 1px solid #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-group-item .number {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.list-group-item .avatar img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  border: 1px solid #f0f0f0;
+}
